@@ -10,20 +10,43 @@
         /* https://developer.mozilla.org/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators_and_selector_lists */
         /* WRITE YOUR CSS HERE */
         
-        .oranges li {
+    .oranges li {
             color:violet
         }
+     div > p {
+            color:red
+        }
+        p + p {
+            color:blue
+        }
+        p ~ ul {
+             color:orange 
+        }
+        p ~ ul li > em {
+            color:pink
+        }
+        /* " ul > li[class="a"] " this was the example we had on the link above to run us through the different selectors.
+                                  the "[ ]" had me stumped for ages thinking it was needed to combine two selectors.
+       /* li > em {
+            color:pink
+        } would've been easier */
+        
 
     </style>
 </head>
     
+    
+    
 <body>
+   
     <div>
         leave this text as the default black
+        
         <ol class="oranges">
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
         </ol>
+        
         <p>
             make this text red using a child selector
         </p>
@@ -37,3 +60,5 @@
 </body>
 
 </html>
+
+Rob
