@@ -52,7 +52,7 @@ body {
 
 #what {
     
-    color: #6B9;
+    color: teal;
     background-color: rgba( 200, 240, 220, 0.9);
     margin-top: 360px;
     
@@ -71,14 +71,94 @@ body {
     
 }
 
+#what h2 {
+    text-align: center;
+    padding: 10px
+}
 
+#sponsor_logos {
+    
+} 
 
+#why {
+    margin-top: 30px;
+    color: teal;
+    margin-left: 160px;
+    margin-right: 160px;
+}
 
+#why h1 {
+    text-align: center;
+}
 
+#where {
+    background-image: url(img/map.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 570px;
+    color: deeppink;
+    margin-top: 50px;
+}
 
+#where h1 {
+    text-align: center;
+    padding: 50px;
+}
 
+#where p {
+    font-weight: bold;
+    text-align: end;
+    margin-right: 380px;
+    
+}
 
+#when {
+    background-image: url(img/wires.png);
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    background-repeat: repeat-x repeat-y;
+    background-size: 700px;
+    background-position: center 100px;
+}
 
+#when h2 {
+    padding: 20px;
+    border-bottom: 2px dashed white;
+}
 
+#when ul {
+    text-align: left;
+    margin-left: 300px;
+    padding: 30px
+}
+
+#when h3 {
+    border-bottom: 2px dashed white;
+}
+
+#who {
+    color: teal;
+    background-color: white;
+}
+
+#who h1 {
+    text-align: center;
+}
+
+#who p {
+    padding: 10px 300px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
 
 
