@@ -64,38 +64,169 @@ body {
 }
 
 .service {
-    background-color: aliceblue;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
-    grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+    background-color: aliceblue;    
+    color: slategrey;
+    
 }
 
 .servtitle {
-    grid-column: span 12;
+    grid-column: 1;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .serv2 {
     grid-row: 2;
-    grid-column: span 12;
+    grid-column: 1;
+    padding: 25px;
 }
 
+.servgrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+    grid-template-rows: 1fr 1.5fr;
+    padding: 25px;
+}
 
+.servtexta {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb {
+    grid-column: 2;
+    grid-row: 2;
+}
 
+.servtexta2 {
+    grid-column: 4;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb2 {
+    grid-column: 4;
+    grid-row: 2;
+}
 
+.servtexta3 {
+    grid-column: 6;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb3 {
+    grid-column: 6;
+    grid-row: 2;
+}
 
+.servgrid2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+    grid-template-rows: 1fr 1.5fr;
+    padding: 25px;
+    margin-bottom: 30px;
+}
 
+.servtexta4 {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb4 {
+    grid-column: 2;
+    grid-row: 2;
+}
 
+.servtexta5 {
+    grid-column: 4;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb5 {
+    grid-column: 4;
+    grid-row: 2;
+}
 
+.servtexta6 {
+    grid-column: 6;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.servtextb6 {
+    grid-column: 6;
+    grid-row: 2;
+}
 
+.portfolio {
+    background-color: darkslategrey;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 8fr;
+    color: slateblue;
+    
+}
 
+.porttitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+}
 
+.porttext {
+    padding: 15px 0;   
+}
 
+.portbuttons a {
+    color: slateblue;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.portfolio img{
+    max-width: 780px;
+    width: 100%;
+}
+
+.about {
+    background-color: aliceblue;    
+    color: slategrey;
+    height: 700px;
+}
+
+.formcontainer {
+    background-color: #F16C65;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    padding: 25px;
+}
+
+.formtitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.formtext {
+    grid-row: 2;
+    padding: 25px 0;
+}
+
+.form {}
 
 
 
